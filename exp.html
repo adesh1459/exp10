@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Role of IT in Environmental Protection</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2b32ecf8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <style>
+        
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #f1f8e9, #ffffff);
+  color: #1b5e20;
+  font-size: 22px;
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #2e7d32, #66bb6a);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413') center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 10px black;
+}
+
+.hero button {
+  background-color: #66bb6a;
+  border: none;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #2e7d32;
+  transform: scale(1.1);
+}
+
+/* APPLICATIONS */
+.applications {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 300px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #e8f5e9;
+}
+
+/* VIDEO SECTION */
+.videos {
+  background: linear-gradient(120deg, #dcedc8, #f9fff9);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #e8f5e9;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input, textarea {
+  width: 70%;
+  max-width: 600px;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #2e7d32;
+  font-size: 18px;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* FOOTER */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+</style>
+<div class="logo">🌿 GreenTech</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#applications">Applications</a>
+      <a href="#videos">Videos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Technology for a Greener Tomorrow</h1>
+      <p>
+        Information Technology empowers environmental sustainability through real-time monitoring,
+        smart systems, and data-driven conservation techniques.
+      </p>
+      <button onclick="scrollToSection('applications')">Explore More</button>
+    </div>
+  </section>
+
+  <!-- APPLICATIONS -->
+  <section id="applications" class="applications">
+    <h2><i class="fas fa-globe"></i> IT Applications in Environmental Protection</h2>
+    <div class="card-container">
+      <div class="card">
+        <i class="fas fa-satellite"></i>
+        <h3>Environmental Monitoring</h3>
+        <p>IoT devices and drones collect real-time data about air, water, and soil health globally.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-brain"></i>
+        <h3>AI-driven Analytics</h3>
+        <p>Machine Learning predicts pollution trends and climate change impacts efficiently.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-industry"></i>
+        <h3>Green Manufacturing</h3>
+        <p>Automation systems optimize energy efficiency, reducing industrial emissions worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <section id="videos" class="videos">
+    <h2><i class="fas fa-video"></i> Learn Through Videos</h2>
+    <p>Watch these inspiring videos to see how IT is shaping environmental sustainability.</p>
+    <div class="video-grid">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/tG7Mb5BK8ag" title="Technology & the Environment" frameborder="0" allowfullscreen></iframe>
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/Pt1EmJXyBVo" title="Green Tech Innovations" frameborder="0" allowfullscreen></iframe>
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/9NgLeJfIoHA" title="INSEAD Green Technology" frameborder="0" allowfullscreen></iframe>
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/EgdFi3sCgzU" title="Green IT and Climate Action" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Our GreenTech Team</h2>
+    <p>Want to collaborate or learn more? Reach out to us!</p>
+    <form method="post" action="backend/ContactServlet">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GreenTech Initiative | Built with 💚 for Earth</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
